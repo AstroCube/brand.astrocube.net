@@ -1,0 +1,219 @@
+body, html {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+a {
+  color: #454545;
+}
+
+body {
+  background-color: #2f3442;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+}
+
+.wrapper {
+  display: block;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.clear {
+  clear: both;
+}
+
+header {
+  display: block;
+  background-color: #384052;
+  padding: 0 20px;
+  margin-bottom: 40px;
+}
+
+header img {
+  float: left;
+  width: 200px;
+}
+
+header span {
+  float: right;
+  line-height: 90px;
+  display: block;
+  text-align: right;
+  font-size: 14px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+section {
+  text-align: center;
+  display: block;
+  margin-bottom: 100px;
+}
+
+.origen img {
+  display: block;
+  max-width: 800px;
+  margin-bottom: 60px;
+}
+
+.lawBox {
+  text-align: left;
+}
+
+.lawBox p {
+  display: block;
+  background-color: #384052;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  position: relative;
+  padding: 40px 20px 20px 220px;
+  min-height: 200px;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+}
+
+.lawBox p span {
+  font-weight: 600;
+}
+
+.lawBox p img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  margin-top: -100px;
+  width: 200px;
+  left: 0;
+}
+
+.row {
+  display: block;
+}
+
+.col50 {
+  display: block;
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+}
+
+.col50:nth-child(even) {
+  padding-left: 40px;
+}
+
+.col50:nth-child(odd) {
+  padding-right: 40px;
+}
+
+.boxCompartir {
+  display: block;
+  max-width: 300px;
+  text-align: center;
+  margin: 100px auto;
+}
+
+.boxCompartir .at-style-responsive .at-share-btn {
+  margin: 0 10px;
+}
+
+footer {
+  display: block;
+  color: #fff;
+  background-color: #384052;
+  padding: 100px 0;
+  text-align: center;
+  margin-top: 100px;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+.owl-carousel .item img {
+  display: block;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.frame {
+  display: block;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 20px 20px 20px 20px;
+  background-color: #fff;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+.frame img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.frame p {
+  border-top: 1px solid #ddd;
+  line-height: 40px;
+  width: auto;
+  margin: 20px -20px -20px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: #000;
+  text-align: left;
+}
+
+
+@media (max-width: 1100px) {
+  .col50 {
+    width: 100%;
+    float: none;
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 800px) {
+
+  .lawBox p {
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .lawBox p img {
+    display: block;
+    position: relative;
+    top: auto;
+    width: 80%;
+    max-width: 200px;
+    left: auto;
+    margin: 0 auto 10px auto;
+  }
+
+  header img {
+    width: 40%;
+    padding-top: 20px;
+    max-width: 200px;
+  }
+
+}
